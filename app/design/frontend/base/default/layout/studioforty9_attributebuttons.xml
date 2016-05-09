@@ -16,8 +16,10 @@
     <catalog_product_view>
 
         <reference name="head">
-            <action method="addJs"><script>studioforty9/attributebuttons/transform.js</script></action>
-            <action method="addItem">
+            <action method="addJs" ifconfig="studioforty9_attributebuttons/settings/enabled">
+                <script>studioforty9/attributebuttons/transform.js</script>
+            </action>
+            <action method="addItem" ifconfig="studioforty9_attributebuttons/settings/enabled">
                 <type>skin_css</type>
                 <style>studioforty9/attributebuttons.css</style>
             </action>
