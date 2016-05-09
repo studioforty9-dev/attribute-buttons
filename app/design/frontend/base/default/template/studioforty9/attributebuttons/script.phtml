@@ -1,0 +1,9 @@
+<?php if ($this->isEnabled()): ?>
+<script type="text/javascript">
+    document.observe('dom:loaded', function() {
+        <?php foreach($this->getAttributes() as $attribute): ?>
+        new AttributeButtons('attribute<?php echo $attribute; ?>');
+        <?php endforeach; ?>
+    });
+</script>
+<?php endif; ?>

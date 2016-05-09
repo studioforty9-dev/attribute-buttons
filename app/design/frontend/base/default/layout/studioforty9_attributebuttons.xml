@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Studioforty9_AttributeButtons
+ *
+ * @category  Studioforty9
+ * @package   Studioforty9_AttributeButtons
+ * @author    StudioForty9 <info@studioforty9.com>
+ * @copyright 2016 StudioForty9 (http://www.studioforty9.com)
+ * @license   https://github.com/studioforty9/attribute-buttons/blob/master/LICENCE BSD
+ * @version   0.0.1
+ * @link      https://github.com/studioforty9/attribute-buttons
+ */
+ -->
+<layout>
+    <catalog_product_view>
+
+        <reference name="head">
+            <action method="addJs"><script>studioforty9/attributebuttons/transform.js</script></action>
+            <action method="addItem">
+                <type>skin_css</type>
+                <style>studioforty9/attributebuttons.css</style>
+            </action>
+        </reference>
+
+        <reference name="before_body_end">
+            <block type="studioforty9_attributebuttons/script" name="studioforty9.attributebuttons.script" template="studioforty9/attributebuttons/script.phtml"/>
+        </reference>
+
+    </catalog_product_view>
+
+</layout>

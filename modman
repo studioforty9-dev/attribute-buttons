@@ -1,0 +1,6 @@
+app/code/community/Studioforty9/AttributeButtons                           app/code/community/Studioforty9/AttributeButtons
+app/design/frontend/base/default/layout/studioforty9_attributebuttons.xml  app/design/frontend/base/default/layout/studioforty9_attributebuttons.xml
+app/design/frontend/base/default/template/studioforty9/attributebuttons    app/design/frontend/base/default/template/studioforty9/attributebuttons
+app/etc/modules/Studioforty9_AttributeButtons.xml                          app/etc/modules/Studioforty9_AttributeButtons.xml
+js/studioforty9/attributebuttons                                           js/studioforty9/attributebuttons
+skin/frontend/base/default/studioforty9/attributebuttons.css               skin/frontend/base/default/studioforty9/attributebuttons.css

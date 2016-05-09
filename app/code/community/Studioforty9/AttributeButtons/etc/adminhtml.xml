@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Studioforty9_AttributeButtons
+ *
+ * @category  Studioforty9
+ * @package   Studioforty9_AttributeButtons
+ * @author    StudioForty9 <info@studioforty9.com>
+ * @copyright 2016 StudioForty9 (http://www.studioforty9.com)
+ * @license   https://github.com/studioforty9/attribute-buttons/blob/master/LICENCE BSD
+ * @version   0.0.1
+ * @link      https://github.com/studioforty9/attribute-buttons
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <studioforty9_attributebuttons>
+                                        <title>StudioForty9 Attribute Buttons Configuration</title>
+                                    </studioforty9_attributebuttons>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

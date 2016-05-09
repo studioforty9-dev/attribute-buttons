@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+/**
+ * Studioforty9_AttributeButtons
+ *
+ * @category  Studioforty9
+ * @package   Studioforty9_AttributeButtons
+ * @author    StudioForty9 <info@studioforty9.com>
+ * @copyright 2016 StudioForty9 (http://www.studioforty9.com)
+ * @license   https://github.com/studioforty9/attribute-buttons/blob/master/LICENCE BSD
+ * @version   0.0.1
+ * @link      https://github.com/studioforty9/attribute-buttons
+ */
+ -->
+<config>
+    <modules>
+        <Studioforty9_AttributeButtons>
+            <version>0.0.1</version>
+        </Studioforty9_AttributeButtons>
+    </modules>
+    <global>
+        <models>
+            <studioforty9_attributebuttons>
+                <class>Studioforty9_AttributeButtons_Model</class>
+            </studioforty9_attributebuttons>
+        </models>
+        <blocks>
+            <studioforty9_attributebuttons>
+                <class>Studioforty9_AttributeButtons_Block</class>
+            </studioforty9_attributebuttons>
+        </blocks>
+        <helpers>
+            <studioforty9_attributebuttons>
+                <class>Studioforty9_AttributeButtons_Helper</class>
+            </studioforty9_attributebuttons>
+        </helpers>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <!--| /app/design/frontend/base/default/layout |-->
+                <studioforty9_attributebuttons>
+                    <file>studioforty9_attributebuttons.xml</file>
+                </studioforty9_attributebuttons>
+            </updates>
+        </layout>
+    </frontend>
+</config>
